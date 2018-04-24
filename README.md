@@ -1,4 +1,4 @@
-# DnnFree.React
+# DnnFree.Modules.SPA.React
 
 DNN (DotNetNuke) SPA Module using React & Webpack for fast development
 
