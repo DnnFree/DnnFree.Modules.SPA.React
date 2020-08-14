@@ -194,6 +194,7 @@ ClientBin/
 *.publishsettings
 dist/
 node_modules/
+package-lock.json
 orleans.codegen.cs
 
 #DNN
