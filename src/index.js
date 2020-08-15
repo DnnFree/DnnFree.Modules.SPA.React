@@ -14,7 +14,7 @@ document.onreadystatechange = function () {
           framework: $.ServicesFramework(moduleId)
         }
         service.baseUrl = service.framework.getServiceRoot(service.path);
-        ReactDOM.render(<Layout mid={moduleId} />, el);
+        ReactDOM.render(<Layout mid={moduleId} service={service} />, el);
       });
   }
 }
