@@ -20,3 +20,5 @@ Since there's still an issue in DNN 9.2 for creating new module, let just instal
 
 Using VS2017, build it in Release mode to create installation package. Then login as host and install the installation package.
 
+---
+During 'dnndev', any change will auto update the bundle but not auto refresh, need to refresh web browser manually (ctrl+F5)
