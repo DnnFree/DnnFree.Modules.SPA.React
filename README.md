@@ -2,7 +2,7 @@
 
 DNN (DotNetNuke) SPA Module using React & Webpack for fast development
 
-This Module is made using DNN 9.2.
+This Module is made using DNN 9.3 that get data from module Web API.
 
 ## Getting started
 
