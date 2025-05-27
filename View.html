@@ -1,4 +1,11 @@
-﻿[JavaScript:{ path: "~/DesktopModules/DNNFree/DNNFree.Modules.SPA.React/dist/dnnfree_spa_react_bundle.js"}]
+﻿[JavaScript:{ path: "~/DesktopModules/DNNFree/DNNFree.Modules.SPA.React/dist/bundle.js"}]
+[Css: { path: "~/DesktopModules/DNNFree/DNNFree.Modules.SPA.React/dist/bundle.css"}]
 [ModuleAction:{controlKey : "Edit", securityAccessLevel : "Edit",  titleKey: "EditModule", localResourceFile: "~/DesktopModules/DnnFree.Modules.SPA.React/App_LocalResources/View.resx" }]
 
-<div id="module-[ModuleContext:ModuleId]" class="dnnfree-app"></div>
+<div id="module-[ModuleContext:ModuleId]" class="app"></div>
+<script>
+    var context = {
+        moduleId: [ModuleContext:ModuleId],
+        servicePath: "/API/DnnFree.Modules.SPA.React",
+    }
+</script>

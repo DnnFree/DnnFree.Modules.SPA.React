@@ -3,12 +3,11 @@ using DotNetNuke.Web.Api;
 using DotNetNuke.Security;
 using System.Web.Http;
 
-namespace DnnFree.Modules.SPA.React.Services
+namespace DnnFree.Modules.SPA.React.WebApi
 {
-    [SupportedModules("DnnFree.Modules.SPA.React")]
-    [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.View)]
+    //[DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.View)]
 
-    //[AllowAnonymous]
+    [AllowAnonymous]
     public class MController : DnnApiController
     {
         [HttpGet]

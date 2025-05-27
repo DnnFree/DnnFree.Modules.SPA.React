@@ -21,7 +21,7 @@ namespace DnnFree.Modules.SPA.React.Services
                 routeName: "default",
                 url: "{controller}/{itemId}",
                 defaults: new { itemId = RouteParameter.Optional },
-                namespaces: new[] { "DnnFree.Modules.SPA.React.Services" });
+                namespaces: new[] { "DnnFree.Modules.SPA.React.WebApi" });
         }
     }
 
