@@ -25,14 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
   var els = document.getElementsByClassName("app");
   Array.prototype.forEach.call(els, function(el) {
-    var moduleId = el.id.replace("module-", "");
-    var service = {
-      path: "DnnFree.Modules.SPA.React",
-      framework: (window as any).$?.ServicesFramework(moduleId),
-      baseUrl: undefined as string | undefined
-    }
-    service.baseUrl = service.framework.getServiceRoot(service.path);
-
     const root = createRoot(el);
     root.render(<Index />);
   })

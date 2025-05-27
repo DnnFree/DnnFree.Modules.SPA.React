@@ -137,7 +137,6 @@
     <TypeScriptCompile Include="src\pages\about.tsx" />
     <TypeScriptCompile Include="src\pages\apiSample.tsx" />
     <TypeScriptCompile Include="src\pages\dashboard.tsx" />
-    <TypeScriptCompile Include="src\services\fetchApi.ts" />
     <TypeScriptCompile Include="src\services\service.ts" />
   </ItemGroup>
   <ItemGroup>
