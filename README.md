@@ -12,7 +12,7 @@ then Clone/Download current repository and place it inside DnnFree Folder
 Open Powershell/Bash and run :
 
     npm install
-    npm run dnndev
+    npm run dev
 
 If you're planning to edit the Server code, open Project with VS2017. Use VS Code for Client development.
 
